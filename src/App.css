@@ -23,11 +23,16 @@ ul.todo-list li {
   padding: 15px 15px 17px 15px;
 }
 
+.todo.checked {
+  color: #b2bec3;
+  text-decoration: line-through;
+}
+
 .remove {
   background-color: transparent;
   border: none;
   cursor: pointer;
   outline: none;
   width: 50px;
-  color: #ff7675;
+  color: #9c0d38;
 }
